@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fui_bgEmail"
+    tools:context="com.example.balasoiunicolae.mychat.AccountActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ImageID"
+        android:layout_width="170dp"
+        android:layout_height="180dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp"
+        android:src="@drawable/default_avatar" />
+
+    <Button
+        android:id="@+id/change_avatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/change_status"
+        android:layout_alignParentStart="true"
+        android:text="Change avatar" />
+
+    <Button
+        android:id="@+id/change_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="38dp"
+        android:text="Change status" />
+
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nicknameID"
+        android:layout_marginTop="29dp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/nicknameID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageID"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textSize="@dimen/fui_field_padding_vert" />
+
+</RelativeLayout>

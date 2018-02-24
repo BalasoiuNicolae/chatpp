@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fui_idp_button_background_email"
+    tools:context="com.example.balasoiunicolae.mychat.ProfileActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/keyView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/friendReq"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+        android:gravity="center"
+        android:text="Status"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/fui_wrapper_padding_horiz" />
+
+    <Button
+        android:id="@+id/friendReq"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:text="Send friend request" />
+
+    <TextView
+        android:id="@+id/nickView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/imgView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Nickname"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/fui_wrapper_padding_horiz"
+        android:textStyle="bold" />
+</RelativeLayout>

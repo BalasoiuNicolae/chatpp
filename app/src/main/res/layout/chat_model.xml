@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageChat"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/default_avatar" />
+
+    <TextView
+        android:id="@+id/message_time_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/message_text_chat"
+        android:layout_marginStart="18dp" />
+
+    <com.github.library.bubbleview.BubbleTextView
+        android:id="@+id/message_text_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageChat"
+        android:layout_toEndOf="@+id/imageChat"
+        android:padding="10dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp"
+        app:angle="8dp"
+        app:arrowCenter="true"
+        app:arrowHeight="10dp"
+        app:arrowLocation="left"
+        app:arrowPosition="14dp"
+        app:arrowWidth="8dp"
+        app:bubbleColor="#7EC0EE" />
+
+</RelativeLayout>

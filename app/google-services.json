@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "966477506343",
+    "firebase_url": "https://individualproject-fa6c5.firebaseio.com",
+    "project_id": "individualproject-fa6c5",
+    "storage_bucket": "individualproject-fa6c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966477506343:android:00bfce615947a65a",
+        "android_client_info": {
+          "package_name": "com.example.balasoiunicolae.mychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966477506343-bjv4r8i74lhqpq0h58f6gkv6u5q15slm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.balasoiunicolae.mychat",
+            "certificate_hash": "a345bfd7cb036f9ffd49bcb6e3dfe5ae9ad0f0dd"
+          }
+        },
+        {
+          "client_id": "966477506343-um1ojpi637l29r46o6rtu21rhvuct5a5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBajKVQS8JwJ-lb7R7dnZwX50k9cPr2oQ8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966477506343-um1ojpi637l29r46o6rtu21rhvuct5a5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
